@@ -200,7 +200,13 @@
         }
 
         //$('div.mirumaker-buttons').hide().fadeIn(400);
-        $('div.mirumaker_movie_player-interactive_elements').hide().fadeIn(400);
+        $('div.mirumaker_movie_player-interactive_elements').hide().
+        fadeIn(400);
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TX9LDW7');
       }
       function typeEquals(type, obj) {
         var clas = Object.prototype.toString.call(obj).slice(8, -1);
@@ -291,7 +297,7 @@
         $('div.mirumaker-buttons').remove();
         $('div.mirumaker_movie_player-interactive_elements').hide();
 
-        //閉じるボタンを非表示にする
+        //閉じるボタンを非表示にする
         $('button.mirumaker_movie_player-close_button').fadeIn(200);
       }
 

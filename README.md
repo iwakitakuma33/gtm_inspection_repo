@@ -9,3 +9,6 @@ https://github.com/iris-jp/
 - 検証対象
 https://github.com/iris-jp/leadtap-view<br/>
 https://github.com/iris-jp/leadtap-generator<br/>
+
+- gulp実行
+npx gulp {タスク名}
