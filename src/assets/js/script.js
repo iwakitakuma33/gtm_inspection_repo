@@ -324,6 +324,7 @@
 
           gtag(param0, param1, { 'event_category':param2[1], 'event_label':param3[1], 'value':param4[1] });
         }
+        gtag({'event': 'event_name'});
       }
   });
 }).call(this);
