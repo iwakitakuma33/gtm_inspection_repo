@@ -12,3 +12,5 @@ https://github.com/iris-jp/leadtap-generator<br/>
 
 - gulp実行
 npx gulp {タスク名}
+
+https://iwakitakuma33.github.io/gtm_inspection_repo/dist/
